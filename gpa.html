@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GPA Calculator</title>
+<link rel="stylesheet" href="gpa.css">
+</head>
+<body>
+<h2>Student GPA Calculator</h2>
+<h3>Student Details</h3>
+Name: <input type="text" id="name"><br><br>
+Register No: <input type="text" id="reg"><br><br>
+<h3>Subjects</h3>
+
+<table border="1">
+<tr>
+<th>Subject</th>
+<th>Marks</th>
+<th>Credits</th>
+</tr>
+<tr>
+<td>Math</td>
+<td><input type="number" id="m1"></td>
+<td><input type="number" id="c1"></td>
+</tr>
+
+<tr>
+<td>Physics</td>
+<td><input type="number" id="m2"></td>
+<td><input type="number" id="c2"></td>
+</tr>
+
+<tr>
+<td>Programming</td>
+<td><input type="number" id="m3"></td>
+<td><input type="number" id="c3"></td>
+</tr>
+
+<tr>
+<td>English</td>
+<td><input type="number" id="m4"></td>
+<td><input type="number" id="c4"></td>
+</tr>
+
+<tr>
+<td>Data Structures</td>
+<td><input type="number" id="m5"></td>
+<td><input type="number" id="c5"></td>
+</tr>
+
+</table>
+
+<br>
+
+<button onclick="calculate()">Calculate GPA</button>
+
+<h3>Result</h3>
+
+<p id="output"></p>
+
+
+</body>
+</html>

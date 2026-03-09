@@ -1,0 +1,14 @@
+
+
+body{
+    background: linear-gradient(to bottom, #000000, #ffffff, #000000);
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Arial";
+}
+
+table{
+    margin-top: 10px;
+}
